@@ -42,6 +42,78 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.socicon-moddb {
+	&::before {
+		content: $socicon-moddb;
+	}
+}
+
+.socicon-indiedb {
+	&::before {
+		content: $socicon-indiedb;
+	}
+}
+
+.socicon-traxsource {
+	&::before {
+		content: $socicon-traxsource;
+	}
+}
+
+.socicon-gamefor {
+	&::before {
+		content: $socicon-gamefor;
+	}
+}
+
+.socicon-pixiv {
+	&::before {
+		content: $socicon-pixiv;
+	}
+}
+
+.socicon-myanimelist {
+	&::before {
+		content: $socicon-myanimelist;
+	}
+}
+
+.socicon-blackberry {
+	&::before {
+		content: $socicon-blackberry;
+	}
+}
+
+.socicon-wickr {
+	&::before {
+		content: $socicon-wickr;
+	}
+}
+
+.socicon-spip {
+	&::before {
+		content: $socicon-spip;
+	}
+}
+
+.socicon-napster {
+	&::before {
+		content: $socicon-napster;
+	}
+}
+
+.socicon-beatport {
+	&::before {
+		content: $socicon-beatport;
+	}
+}
+
+.socicon-hackerone {
+	&::before {
+		content: $socicon-hackerone;
+	}
+}
+
 .socicon-hackernews {
 	&::before {
 		content: $socicon-hackernews;
@@ -774,9 +846,21 @@
 	}
 }
 
+.socicon-forrst {
+	&::before {
+		content: $socicon-forrst;
+	}
+}
+
 .socicon-foursquare {
 	&::before {
 		content: $socicon-foursquare;
+	}
+}
+
+.socicon-friendfeed {
+	&::before {
+		content: $socicon-friendfeed;
 	}
 }
 
@@ -1002,6 +1086,12 @@
 	}
 }
 
+.socicon-newsvine {
+	&::before {
+		content: $socicon-newsvine;
+	}
+}
+
 .socicon-nintendo {
 	&::before {
 		content: $socicon-nintendo;
@@ -1059,6 +1149,12 @@
 .socicon-periscope {
 	&::before {
 		content: $socicon-periscope;
+	}
+}
+
+.socicon-persona {
+	&::before {
+		content: $socicon-persona;
 	}
 }
 
@@ -1272,6 +1368,12 @@
 	}
 }
 
+.socicon-technorati {
+	&::before {
+		content: $socicon-technorati;
+	}
+}
+
 .socicon-telegram {
 	&::before {
 		content: $socicon-telegram;
@@ -1481,3 +1583,4 @@
 		content: $socicon-zynga;
 	}
 }
+

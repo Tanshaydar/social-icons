@@ -17,6 +17,21 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function get_socicon( $icon = '', $type = 'color' ) {
 	$socicons = array(
+		'moddb' => array(
+			'url'   => 'http://www.moddb.com/',
+			'color' => '#CC0300',
+			'label' => '',
+		),
+		'indiedb' => array(
+			'url'   => 'http://www.indiedb.com/',
+			'color' => '#77C628',
+			'label' => '',
+		),
+		'myanimelist' => array(
+			'url'   => 'https://myanimelist.net/',
+			'color' => '#2E51A2',
+			'label' => '',
+		),
 		'hackernews' => array(
 			'url'   => 'https://news.ycombinator.com/',
 			'color' => '#FF6601',
